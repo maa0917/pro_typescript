@@ -28,4 +28,29 @@ function repeatHello(count: number): string {
   return "hello".repeat(count)
 }
 
+// # TypeScript と JavaScript との関係
 
+// ## TypeScript の役割
+
+// - 型チェック
+// - トランスコンパイラ
+
+/*
+## 型チェック
+
+静的なチェック
+実際にプログラムを実行しなくても行えるチェックである
+
+動的なチェック
+テスト
+
+TypeScript プログラムはランタイムの挙動が型情報に依存しない
+
+異なるシグネチャの同名の関数の宣言ができない
+ */
+
+/*
+## トランスパイル
+
+TS のコードを JS に変換すること
+ */
